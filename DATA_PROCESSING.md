@@ -44,7 +44,7 @@ To preprocess your data, you can choose to either
         bash projects/neuralangelo/scripts/run_ffmpeg.sh ${SEQUENCE} ${PATH_TO_VIDEO} ${DOWNSAMPLE_RATE}
         ```
         This will create a directory `datasets/{SEQUENCE}_ds{DOWNSAMPLE_RATE}` (set as `DATA_PATH` onwards), which stores all the processed data.
-        The extracted images will be stored in `{DATA_PATH}/images_raw`.
+        The extracted images will be stored in `{DATA_PATH}/raw_images`.
 
     2. Run COLMAP
 
